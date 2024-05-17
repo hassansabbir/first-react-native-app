@@ -1,12 +1,11 @@
 import { StyleSheet, Text, View } from "react-native-web";
-import { Slot } from "expo-router";
+import { Slot, Stack } from "expo-router";
 
 const rootLayout = () => {
   return (
-    <>
-      <Text>You're a NOOB at it.</Text>
-      <Slot />
-    </>
+    <Stack>
+      <Stack.Screen name="index" options={{ headerShown: false }} />
+    </Stack>
   );
 };
 
