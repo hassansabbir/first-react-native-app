@@ -6,6 +6,7 @@ export default function App() {
   return (
     <View className="flex items-center">
       <Text className="text-3xl">Hello Builders!!</Text>
+      <Text className="text-3xl">I Am Rio!!</Text>
       <StatusBar style="auto" />
       <Link href="/profile">Go to Profile</Link>
     </View>
